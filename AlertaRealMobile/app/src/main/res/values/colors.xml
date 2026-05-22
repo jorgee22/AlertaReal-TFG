@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBg">#0A1628</color>
+    <color name="colorSurface">#0F1E35</color>
+    <color name="colorSurface2">#162540</color>
+    <color name="colorBorder">#1E3A5F</color>
+    <color name="colorRed">#E63946</color>
+    <color name="colorOrange">#F4A261</color>
+    <color name="colorYellow">#FFD166</color>
+    <color name="colorTeal">#4ECDC4</color>
+    <color name="colorText">#F0F4F8</color>
+    <color name="colorMuted">#8BA4BE</color>
+    <color name="colorFaint">#2A4A6B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="colorPrimary">#E63946</color>
+    <color name="colorSecondary">#0F1E35</color>
+    <color name="colorBackground">#0A1628</color>
+</resources>

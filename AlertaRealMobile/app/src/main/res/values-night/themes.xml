@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AlertaRealMobile" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#E63946</item>
+        <item name="colorPrimaryVariant">#0F1E35</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#4ECDC4</item>
+        <item name="colorOnSecondary">#0A1628</item>
+        <item name="android:colorBackground">#0A1628</item>
+        <item name="colorSurface">#0F1E35</item>
+        <item name="colorOnSurface">#F0F4F8</item>
+        <item name="android:textColorPrimary">#F0F4F8</item>
+        <item name="android:textColorSecondary">#8BA4BE</item>
+        <item name="android:windowBackground">#0A1628</item>
+        <item name="android:statusBarColor">#0A1628</item>
+        <item name="android:navigationBarColor">#0F1E35</item>
+        <item name="colorControlNormal">#2A4A6B</item>
+        <item name="colorControlActivated">#E63946</item>
+        <item name="colorControlHighlight">#1E3A5F</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.AlertaReal.Subtitle</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.AlertaReal.Body</item>
+    </style>
+
+    <!-- Texto base -->
+    <style name="TextAppearance.AlertaReal.Subtitle" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textColor">#F0F4F8</item>
+    </style>
+    <style name="TextAppearance.AlertaReal.Body" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">#8BA4BE</item>
+    </style>
+
+    <!-- TextInputLayout: fondo oscuro, borde sutil, rojo al enfocar -->
+    <style name="Widget.AlertaReal.TextInput" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">#0F1E35</item>
+        <item name="boxStrokeColor">@color/text_input_stroke</item>
+        <item name="boxStrokeWidth">1.5dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+        <item name="hintTextColor">@color/text_input_hint</item>
+        <item name="android:textColorHint">#2A4A6B</item>
+        <item name="boxCornerRadiusTopStart">10dp</item>
+        <item name="boxCornerRadiusTopEnd">10dp</item>
+        <item name="boxCornerRadiusBottomStart">10dp</item>
+        <item name="boxCornerRadiusBottomEnd">10dp</item>
+    </style>
+</resources>
